@@ -1,4 +1,3 @@
-import groovy.xml.MarkupBuilder
 import groovy.xml.StreamingMarkupBuilder
 class TraktorKeyConverter
 {
@@ -8,17 +7,18 @@ class TraktorKeyConverter
 		println "*************************************************"
 		println "*************Written by Ross Troha***************"
 		println "*************September 11th 2013*****************"
+        println "*********https://github.com/rosstroha*************"
 		println "********linkedin.com/pub/ross-troha/42/39/252****"
 		println "*************facebook.com/djtroha****************"
-		println "*************soundcloud.com/djtroha**************"
+		println "*************mixcloud.com/djtroha***************"
 		println "*************************************************"
 
 		println "/////////////////////////////////////////////////"
-		println "//////This script converts Traktor's open key////"
-		println "//////to the more commonly used camelot scale.///"
+		println "//////This script converts the open key notation/"
+		println "//////to the used camelot scale./////////////////"
 		println "/////////////////////////////////////////////////"
 		println "//////The converted keys will be stored in///////"
-		println "//////the Key Text column in traktor/////////////"
+		println "//////the Key Text column in Traktor/////////////"
 		println "/////////////////////////////////////////////////"
 		
 		println "This script needs to be in the Traktor root directory or the same location as the collection file!"
