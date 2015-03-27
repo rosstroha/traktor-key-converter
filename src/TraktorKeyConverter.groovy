@@ -9,7 +9,7 @@ class TraktorKeyConverter
         println "*************github.com/rosstroha****************"
 		println "******linkedin.com/pub/ross-troha/42/39/252******"
 		println "*************facebook.com/djtroha****************"
-		println "*************mixcloud.com/djtroha***************"
+		println "*************mixcloud.com/djtroha****************"
 		println "*************************************************"
         println "\n"
 		println "/////////////////////////////////////////////////"
