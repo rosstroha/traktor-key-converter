@@ -1,2 +1,2 @@
-java -jar LibraryParser.jar
+java -jar TraktorKeyConverter.jar
 PAUSE
