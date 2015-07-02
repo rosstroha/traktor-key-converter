@@ -24,9 +24,9 @@ class TraktorKeyConverter
 		def xmlFile = new File("collection.nml")
 
         //The keys in a Traktor collection file are represented by an integer 0-23
-        def keys = ["08B", "03B", "10B", "05B", "05B", "12B", "07B", "02B",
-                    "09B", "04B", "11B", "06B", "01B", "05A", "12A", "07A",
-                    "02A", "09A", "11A", "06A", "01A", "08A", "03A", "10A"]
+        def keys = ["08B", "03B", "10B", "05B", "12B", "07B", "02B", "09B"
+                    "04B", "11B", "06B", "01B", "05A", "12A", "07A", "02A"
+                    "09A", "04A", "11A", "06A", "01A", "08A", "03A", "10A"]
 
 		if(xmlFile.exists())
 		{
