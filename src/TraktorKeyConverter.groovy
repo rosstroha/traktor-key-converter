@@ -3,22 +3,21 @@ class TraktorKeyConverter
 {
 	public static void main(args)
 	{
-		println "*************************************************"
-		println "*************Written by Ross Troha***************"
-		println "*************September 11th 2013*****************"
-		println "*************github.com/rosstroha****************"
-		println "******linkedin.com/pub/ross-troha/42/39/252******"
-		println "*************facebook.com/djtroha****************"
-		println "*************mixcloud.com/djtroha****************"
-		println "*************************************************"
-		println "\n"
-		println "/////////////////////////////////////////////////"
-		println "//////This script converts the open key notation/"
-		println "//////to the used camelot scale./////////////////"
-		println "/////////////////////////////////////////////////"
-		println "//////The converted keys will be stored in///////"
-		println "//////the Key Text column in Traktor/////////////"
-		println "/////////////////////////////////////////////////"
+		println """*************************************************
+				 *************Written by Ross Troha***************
+				 *************September 11th 2013*****************
+				 *************github.com/rosstroha****************
+				 ******linkedin.com/pub/ross-troha/42/39/252******
+				 *************facebook.com/djtroha****************
+				 *************mixcloud.com/djtroha****************
+				 *************************************************
+				 /////////////////////////////////////////////////
+				 //////This script converts the open key notation/
+				 //////to the used camelot scale./////////////////
+				 /////////////////////////////////////////////////
+				 //////The converted keys will be stored in///////
+				 //////the Key Text column in Traktor/////////////
+				 /////////////////////////////////////////////////"""
 
 		println "This script needs to be in the Traktor root directory or the same location as the collection file!"
 		def xmlFile = new File("collection.nml")
